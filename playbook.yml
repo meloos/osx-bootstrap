@@ -1,0 +1,57 @@
+- hosts: localhost
+  vars:
+    homebrew_upgrade_all_packages: yes
+    mas_upgrade_all_apps: yes
+
+    homebrew_taps:
+      - homebrew/core
+      - homebrew/cask-fonts
+
+    homebrew_installed_packages:
+      - ack
+      - awscli
+      - git
+      - gnupg
+      - htop
+      - jq
+      - nmap
+      - nvim
+      - python3
+      - speedtest-cli
+      - ssh-copy-id
+      - tfenv
+      - tmux
+      - tree
+      - wget
+      - zsh
+
+    homebrew_cask_apps:
+      - alfred
+      - docker
+      - fantastical
+      - font-fira-code
+      - google-chrome
+      - handbrake
+      - iterm2
+      - keybase
+      - microsoft-edge
+      - onedrive
+      - parallels
+      - postman
+      - slack
+      - spotify
+      - telegram
+      - the-unarchiver
+      - tunnelblick
+      - visual-studio-code
+      - zerotier-one
+
+    mas_installed_apps:
+      - { id: 441258766, name: "Magnet" }
+      - { id: 1333542190, name: "1Password 7 - Password Manager" }
+      - { id: 937984704, name: "Amphetamine" }
+      - { id: 918858936, name: "Airmail 4" }
+
+  roles:
+    - geerlingguy.homebrew
+    - geerlingguy.mas
