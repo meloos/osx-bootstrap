@@ -16,6 +16,7 @@
       - jq
       - nmap
       - nvim
+      - pinentry-mac
       - python3
       - speedtest-cli
       - ssh-copy-id
@@ -27,6 +28,7 @@
 
     homebrew_cask_apps:
       - alfred
+      - brave-browser
       - docker
       - fantastical
       - font-fira-code
