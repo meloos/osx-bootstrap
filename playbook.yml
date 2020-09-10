@@ -9,6 +9,7 @@
 
     homebrew_installed_packages:
       - ack
+      - asdf
       - awscli
       - git
       - gnupg
@@ -20,7 +21,6 @@
       - python3
       - speedtest-cli
       - ssh-copy-id
-      - tfenv
       - tmux
       - tree
       - wget
@@ -53,6 +53,7 @@
       - { id: 1333542190, name: "1Password 7 - Password Manager" }
       - { id: 937984704, name: "Amphetamine" }
       - { id: 918858936, name: "Airmail 4" }
+      - { id: 1451685025, name: "Wireguard" }
 
   roles:
     - geerlingguy.homebrew
