@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # xcode command line tools
 xcode-select --install
@@ -22,3 +22,6 @@ ansible-galaxy role install -r requirements.yml
 
 # run actual playbook
 ansible-playbook playbook.yml --ask-become-pass
+
+# install fzf bindings
+$(brew --prefix)/opt/fzf/install
