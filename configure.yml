@@ -1,0 +1,12 @@
+- hosts: localhost
+  tasks: 
+    - name: Set up zsh syntax highlighting
+      git:
+          dest: "{{ lookup('env','HOME') }}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
+          repo: "https://github.com/zsh-users/zsh-syntax-highlighting.git"
+          force: yes
+    - name: Set up zsh autosuggestions
+      git:
+          dest: "{{ lookup('env','HOME') }}/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
+          repo: "https://github.com/zsh-users/zsh-autosuggestions.git"
+          force: yes
