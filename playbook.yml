@@ -30,11 +30,9 @@
 
     homebrew_cask_apps:
       - alfred
-      - brave-browser
       - docker
       - fantastical
       - font-fira-code-nerd-font
-      - timche-gmail-desktop
       - google-chrome
       - handbrake
       - iterm2
