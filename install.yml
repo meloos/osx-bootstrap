@@ -24,6 +24,7 @@
       - python3
       - speedtest-cli
       - ssh-copy-id
+      - starship
       - tmux
       - tree
       - wget
