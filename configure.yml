@@ -10,3 +10,8 @@
           dest: "{{ lookup('env','HOME') }}/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
           repo: "https://github.com/zsh-users/zsh-autosuggestions.git"
           force: yes
+#    - name: Set up iterm
+#      git:
+#          dest: "{{ lookup('env','HOME') }}/Library/Application Support/iTerm2/DynamicProfiles/iterm2_melek_profile.plist"
+#          repo: "https://gist.github.com/4b7b02f1f44eb66a2cff4b7715052a11.git"
+#          force: yes
